@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        i {
+            font-size: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading"></h1>
+    <hr>
+    <i id="emoji" class="bi bi-emoji-frown"></i><br>
+    <button onclick="document.getElementById('emoji').setAttribute('class', 'bi bi-emoji-frown')">SAD</button>
+    <button onclick="document.getElementById('emoji').setAttribute('class', 'bi bi-emoji-laughing')">HAPPY</button>
+    <script>
+        document.getElementById('heading').innerHTML = 'Hello planet!';
+    </script>
+</body>
+</html>
