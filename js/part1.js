@@ -74,19 +74,21 @@
 
 // console.log(greeting.slice(-6, -1))
 
-let greeting = 'Hello world!';
-let greeting2 = 'HELLO WORLD!';
+// let greeting = 'Hello world!';
+// let greeting2 = 'HELLO WORLD!';
 
-console.log(greeting.toUpperCase());
-console.log(greeting.toLowerCase());
+// console.log(greeting.toUpperCase());
+// console.log(greeting.toLowerCase());
 
-console.log(greeting.toUpperCase() === greeting2);
+// console.log(greeting.toUpperCase() === greeting2);
 
 let x = 'John'
 let message = `Hello ${x.toUpperCase()}! Yo'ur "a"ge is ${2022 - 1988}.`;
 
-console.log(message);
+// console.log(message);
 
 
-let y = '1.Do\n2.Do that\n3.Do something\n4.Exit';
-console.log(y);
+// let y = '1.Do\n2.Do that\n3.Do something\n4.Exit';
+// console.log(y);
+
+console.log('That\'s it');
