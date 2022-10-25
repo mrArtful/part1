@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Validator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin: 50px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container input {
+            height: 50px;
+            font-size: 46px;
+        }
+        .container button {
+            height: 50px;
+            font-size: 40px;
+            padding: 5px;
+        }
+        #error {
+            display: none;
+            color: red;
+        }
+        #error.visible {
+            display: block;
+        }
+        .output-container {
+            display: none;
+        }
+        .output-container.visible {
+            display: block;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table {
+            min-width: 400px;
+        }
+        th, td {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <input type="text" id="id-code"><br>
+        <button id="check-id">Check</button>
+        <h2 id="error"></h2>
+        <div class="output-container">
+            <table id="output">
+                <tr>
+                    <th>Gender</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Date of birth</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Region of birth</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Validity</th>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
